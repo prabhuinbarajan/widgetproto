@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <title>HTML App</title>
+    <script src="./bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="../build/static/css/main.a4963e12.css">
+  </head>
+  <body>
+    <label>Enter your email:
+        <input type="email" id="userEmail" placeholder="Your Email"/>
+    </label>
+    <div id="container"></div>
+    <script type="module">
+      var legalConsentWidgetConfiguration = {
+        userEmailRef: 'userEmail'
+      };
+       
+      setTimeout(function() {
+          var widget = new LegalConsentWidget(legalConsentWidgetConfiguration);
+          widget.render("container");
+      }, 1000);
+  
+   </script>
+
+  </body>
+</html>

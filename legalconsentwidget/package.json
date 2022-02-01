@@ -21,8 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:bundle": "webpack --mode production && cp bundle/bundle.js public",
-    "build:bundle-dev": "webpack --mode development --devtool source-map && cp bundle/bundle.js* public"
-
+    "build:bundle-dev": "webpack --mode development --devtool source-map && cp bundle/bundle.js* public",
+    "start-http-server": "cd public && http-server . -p 3002"
   },
   "eslintConfig": {
     "extends": [

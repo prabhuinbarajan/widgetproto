@@ -34160,13 +34160,11 @@ var Bhnlegalconsent = /*#__PURE__*/function (_React$Component) {
   _createClass(Bhnlegalconsent, [{
     key: "prepareComponent",
     value: function prepareComponent() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        id: "container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_pactsafe_pactsafe_react_sdk__WEBPACK_IMPORTED_MODULE_3__.PSClickWrap, {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_pactsafe_pactsafe_react_sdk__WEBPACK_IMPORTED_MODULE_3__.PSClickWrap, {
         accessId: "1fb781f4-4c6b-42b9-b160-aecf5f8a169e",
         groupKey: "clickwrap-example",
         signerIdSelector: this.props.userEmail
-      }));
+      });
     }
   }, {
     key: "render",
